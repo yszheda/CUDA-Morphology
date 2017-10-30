@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
     if (argc > 1) {
         srcImg = cv::imread(argv[1], cv::IMREAD_GRAYSCALE);
     } else {
-        std::cout << "./test <image name> [hsize of Sel] [vsize of Sel]" << std::endl;
+        std::cout << "./test <image name> [<hsize of Sel>] [<vsize of Sel>]" << std::endl;
         return 1;
     }
 
