@@ -2,13 +2,16 @@
 
 Morphology erode/dilate in GPU using CUDA
 
-## Compile test program
+## Compile static library and test program
 
 1. Install CUDA
 2. Install OpenCV
-3.
+3. Install CMake
 
 ```
+mkdir build
+cd build
+cmake ..
 make
 ```
 
